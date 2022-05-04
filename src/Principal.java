@@ -4,6 +4,7 @@ import com.abstractfactory.Shape;
 
 public class Principal {
 
+
     public static void main(String[] args) {
 
         AbstractFactory shapeBlueFactory = FactoryProducer.getFactory("BLUE");
