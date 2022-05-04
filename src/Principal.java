@@ -5,7 +5,6 @@ import com.abstractfactory.Shape;
 
 public class Principal {
 
-
     public static void main(String[] args) {
 
         //Cria a fábrica de métodos para shape blue
