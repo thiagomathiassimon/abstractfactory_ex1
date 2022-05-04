@@ -8,7 +8,7 @@ public class RedSquare extends Square {
 
     @Override
     public void draw() {
-        System.out.println("Dentro de Triangulo " + getColor()
+        System.out.println("Dentro de Quadrado " + getColor()
                 + " de altura " + getHeight() + " no método draw()");
     }
 }

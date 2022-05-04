@@ -2,9 +2,7 @@ import com.abstractfactory.AbstractFactory;
 import com.abstractfactory.FactoryProducer;
 import com.abstractfactory.Shape;
 
-
 public class Principal {
-
     public static void main(String[] args) {
 
         //Cria a fábrica de métodos para shape blue
@@ -23,10 +21,10 @@ public class Principal {
         //Chama o método draw do retangulo
         shape2.draw();
 
-        //Pega um objeto triangulo
+        //Pega um objeto quadrado
         Shape shape3 = shapeBlueFactory.getSquare(3);
 
-        //Chama o método draw do triangulo
+        //Chama o método draw do quadrado
         shape3.draw();
 
         //Cria a fábrica de métodos para shape red
